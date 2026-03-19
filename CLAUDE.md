@@ -2,7 +2,7 @@
 
 ## What This Is
 
-A React + Vite documentation site for **BTML (Book Markup Language)** — a fictional markup language invented for an HTML/CSS course. It is a course prop, not a real specification.
+A React + Vite documentation site for **BTML (Book Text Markup Language)** — a fictional markup language invented for an HTML/CSS course. It is a course prop, not a real specification.
 
 The site lives at: https://kianattar.github.io/btml-docs/
 

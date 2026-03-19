@@ -10,7 +10,7 @@ export default function App() {
           <div className="topnav-brand">
             <span className="topnav-logo">B</span>
             <span className="topnav-title">BTML Guide</span>
-            <span className="topnav-version-badge">Book Markup Language</span>
+            <span className="topnav-version-badge">Book Text Markup Language</span>
           </div>
           <nav className="topnav-links">
             <NavLink to="/docs" className={({ isActive }) => isActive ? 'active' : ''}>

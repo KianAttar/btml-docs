@@ -1,6 +1,6 @@
 # BTML Guide
 
-A fictional documentation site for **BTML (Book Markup Language)** — a made-up markup language used as a teaching prop in an HTML/CSS course.
+A fictional documentation site for **BTML (Book Text Markup Language)** — a made-up markup language used as a teaching prop in an HTML/CSS course.
 
 ## What is BTML?
 

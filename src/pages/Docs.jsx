@@ -85,7 +85,7 @@ function LegacyDocs({ onSwitchTab }) {
       <div className="docs-section" id="overview">
         <h1>BTML Documentation</h1>
         <p className="docs-lead">
-          BTML (Book Markup Language) is a structured format for submitting book manuscripts
+          BTML (Book Text Markup Language) is a structured format for submitting book manuscripts
           to the publishing system. Tags give every piece of information an explicit label —
           so the system always knows what it's looking at without guessing.
         </p>
