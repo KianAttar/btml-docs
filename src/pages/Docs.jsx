@@ -37,7 +37,7 @@ function Callout({ type = 'info', icon, children }) {
 // ─── Content per tab ───────────────────────────────────────────
 
 const LEGACY_EXAMPLE = `<book-name>The Lighthouse Mystery</book-name>
-<author>Hassan Attar</author>
+<author>Kian Attar</author>
 <content>
 Chapter 1: The Beginning
 
@@ -48,7 +48,7 @@ const V1_EXAMPLE = `<!DOCTYPE 1.0>
 <book-name>The Lighthouse Mystery</book-name>
 <author>
   <title>Dr.</title>
-  <firstname>Hassan</firstname>
+  <firstname>Kian</firstname>
   <middlename>Ali</middlename>
   <lastname>Attar</lastname>
 </author>
@@ -63,7 +63,7 @@ const V2_EXAMPLE = `<!DOCTYPE 2.0>
 <authors>
   <author>
     <title>Dr.</title>
-    <firstname>Hassan</firstname>
+    <firstname>Kian</firstname>
     <lastname>Attar</lastname>
   </author>
   <author>
@@ -145,7 +145,7 @@ function LegacyDocs({ onSwitchTab }) {
             <tr>
               <td>&lt;author&gt;</td>
               <td><span className="required-badge">required</span></td>
-              <td>The author's full name as plain text. Example: <code>Hassan Attar</code></td>
+              <td>The author's full name as plain text. Example: <code>Kian Attar</code></td>
             </tr>
             <tr>
               <td>&lt;content&gt;</td>
@@ -194,7 +194,7 @@ function V1Docs({ onSwitchTab }) {
         </p>
         <CodeBlock>{`<author>
   <title>Dr.</title>        <!-- optional -->
-  <firstname>Hassan</firstname>  <!-- required -->
+  <firstname>Kian</firstname>  <!-- required -->
   <middlename>Ali</middlename>  <!-- optional -->
   <lastname>Attar</lastname>    <!-- required -->
 </author>`}</CodeBlock>
@@ -299,7 +299,7 @@ function V2Docs({ onSwitchTab }) {
         </p>
         <CodeBlock>{`<authors>
   <author>
-    <firstname>Hassan</firstname>
+    <firstname>Kian</firstname>
     <lastname>Attar</lastname>
   </author>
   <author>

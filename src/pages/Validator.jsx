@@ -3,7 +3,7 @@ import { validate } from '../lib/validator.js'
 
 const EXAMPLES = {
   legacy: `<book-name>The Lighthouse Mystery</book-name>
-<author>Hassan Attar</author>
+<author>Kian Attar</author>
 <content>
 Chapter 1: The Beginning
 
@@ -14,7 +14,7 @@ It was a dark and stormy night when our story begins...
 <book-name>The Lighthouse Mystery</book-name>
 <author>
   <title>Dr.</title>
-  <firstname>Hassan</firstname>
+  <firstname>Kian</firstname>
   <middlename>Ali</middlename>
   <lastname>Attar</lastname>
 </author>
@@ -29,7 +29,7 @@ It was a dark and stormy night when our story begins...
 <authors>
   <author>
     <title>Dr.</title>
-    <firstname>Hassan</firstname>
+    <firstname>Kian</firstname>
     <lastname>Attar</lastname>
   </author>
   <author>
