@@ -615,3 +615,55 @@ code {
   font-weight: 700;
   flex-shrink: 0;
 }
+
+/* ─── Responsive ──────────────────────────────────────────── */
+
+@media (max-width: 768px) {
+  .topnav-inner {
+    padding: 0 16px;
+  }
+
+  .topnav-version-badge {
+    display: none;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .docs-content {
+    padding: 24px 20px;
+  }
+
+  .docs-content h1 {
+    font-size: 22px;
+  }
+
+  .validator-page {
+    padding: 24px 20px;
+  }
+
+  /* Let sections scroll horizontally so tables don't break layout */
+  .docs-section {
+    overflow-x: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .topnav-title {
+    font-size: 13px;
+  }
+
+  .docs-content {
+    padding: 20px 16px;
+  }
+
+  .validator-page {
+    padding: 20px 16px;
+  }
+
+  .version-tab {
+    padding: 10px 12px;
+    font-size: 13px;
+  }
+}
